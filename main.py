@@ -3,14 +3,14 @@ from flask import Flask, request, render_template, redirect, url_for
 from flask_mysqldb import MySQL
 import mysql.connector
 
-connection = mysql.connector.connect(host = 'localhost', user = 'root', database = 'SmartCash', password = 'B!@ck_639928215')
+connection = mysql.connector.connect(host = 'localhost', user = 'root', database = 'SmartCash', password = 'F0x!32e242')
 
 app = Flask(__name__)
 
 app.config['MYSQL_HOST'] = "localhost"
 app.config['MYSQL_USER'] = "root"
-app.config['MYSQL_PASSWORD'] = "B!@ck_639928215"
-app.config['MYSQL_DB'] = "SmartCash"
+app.config['MYSQL_PASSWORD'] = "F0x!32e242"
+app.config['MYSQL_DB'] = "Harmony Trust Bank"
 
 mysql = MySQL(app)
 
