@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Balance</title>
+    <link rel="stylesheet" href="check_balance.css">
+</head>
+<body>
+    <header>
+        <h1>Check Balance</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="deposit.html">Deposit</a></li>
+                <li><a href="withdraw.html">Withdraw</a></li>
+                <li><a href="transfer.html">Transfer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <form action="/check_balance" method="POST">
+            <label for="account_number">Account Number:</label>
+            <input type="text" id="account_number" name="account_number" required><br>
+            <input type="submit" value="Check Balance">
+        </form>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+

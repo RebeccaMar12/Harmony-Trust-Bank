@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Money</title>
+    <link rel="stylesheet" href="transfer.css">
+</head>
+<body>
+    <header>
+        <h1>Transfer Money</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="check_balance.html">Check Balance</a></li>
+                <li><a href="deposit.html">Deposit</a></li>
+                <li><a href="withdraw.html">Withdraw</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <form action="/transfer" method="POST">
+            <label for="sender_account">Sender Account Number:</label>
+            <input type="text" id="sender_account" name="sender_account" required><br>
+            <label for="receiver_account">Receiver Account Number:</label>
+            <input type="text" id="receiver_account" name="receiver_account" required><br>
+            <label for="transfer_amount">Amount:</label>
+            <input type="number" id="transfer_amount" name="amount" required><br>
+            <input type="submit" value="Transfer">
+        </form>
+    </section>
+</body>
+</html>
